@@ -1,5 +1,5 @@
 # cursogit
-Proyecto de aprendizaje con git
+Proyecto de aprendizaje y recordatorio con git
 
 # ¿Tengo git instalado?
 git --version
