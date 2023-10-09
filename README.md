@@ -59,3 +59,10 @@ git merge nombreDeLaRamaAUnir
 git push -u origin nombreDeLaRama
 -- Para subir a una rama existente
 git push
+
+-- Recuperar cambios remotos
+git fetch
+-- Mergear cambios remotos
+git merge
+-- Recuperar y mergear ennun solo comando
+git pull
