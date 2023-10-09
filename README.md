@@ -46,3 +46,16 @@ git commit -m "Descripción del commit"
 git log [--oneline]
 
 -- Para ignorar archivos o rutas hay que añadirlos al archivo .gitignore
+
+*** RAMAS ***
+-- Crear una rama
+git checkout -b nombreDeLaRama
+
+-- Unir ramas. Desde la rama de destino ejecutar
+git merge nombreDeLaRamaAUnir
+
+*** GitHub ***
+-- Para subir una rama nueva
+git push -u origin nombreDeLaRama
+-- Para subir a una rama existente
+git push
