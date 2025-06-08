@@ -48,6 +48,10 @@ git log [--oneline]
 -- Para ignorar archivos o rutas hay que añadirlos al archivo .gitignore
 
 *** RAMAS ***
+
+-- Modificar la rama por defecto al inicializar git
+git config --global init.defaultBranch main
+
 -- Crear una rama
 git checkout -b nombreDeLaRama
 
